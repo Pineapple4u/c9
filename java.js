@@ -31,5 +31,7 @@ function operate(){
         case "div":    
            a.innerHTML=no1/no2;
            break;
+        default:
+            a.innerHTML="<h3>please type <br> '+'   <br>  '-' <br>   'x'  <br>  '/' </h3>";    
     }
 }
